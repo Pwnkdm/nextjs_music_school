@@ -1,0 +1,154 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Beginner Guitar Lessons",
+      "slug": "beginner-guitar-lessons",
+      "description": "Learn the basics of guitar playing from chords to simple songs.",
+      "price": 49.99,
+      "instructor": "Alex Turner",
+      "isFeatured": true,
+      "image": "https://images.pexels.com/photos/1751731/pexels-photo-1751731.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 2,
+      "title": "Advanced Piano Techniques",
+      "slug": "advanced-piano-techniques",
+      "description": "Master advanced skills like arpeggios and complex harmonies on piano.",
+      "price": 79.99,
+      "instructor": "Clara Keys",
+      "isFeatured": false,
+      "image": "https://images.pexels.com/photos/1246437/pexels-photo-1246437.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 3,
+      "title": "Jazz Improvisation",
+      "slug": "jazz-improvisation",
+      "description": "Learn how to improvise in jazz with scales, licks, and real-time techniques.",
+      "price": 69.0,
+      "instructor": "Miles Gordon",
+      "isFeatured": true,
+      "image": "https://images.pexels.com/photos/1365167/pexels-photo-1365167.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 4,
+      "title": "Music Theory 101",
+      "slug": "music-theory-101",
+      "description": "An essential course for understanding the building blocks of music.",
+      "price": 39.95,
+      "instructor": "Emma Reed",
+      "isFeatured": false,
+      "image": "https://images.pexels.com/photos/210764/pexels-photo-210764.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 5,
+      "title": "Electronic Music Production",
+      "slug": "electronic-music-production",
+      "description": "Produce electronic music using DAWs like Ableton Live and FL Studio.",
+      "price": 89.99,
+      "instructor": "Tyler Synth",
+      "isFeatured": true,
+      "image": "https://images.pexels.com/photos/27007091/pexels-photo-27007091/free-photo-of-hand-on-music-production-controller.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 6,
+      "title": "Drumming for Beginners",
+      "slug": "drumming-for-beginners",
+      "description": "Get started with rhythm, stick techniques, and basic drum patterns.",
+      "price": 44.5,
+      "instructor": "Nina Beat",
+      "isFeatured": false,
+      "image": "https://images.pexels.com/photos/995301/pexels-photo-995301.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 7,
+      "title": "Singing Essentials",
+      "slug": "singing-essentials",
+      "description": "Improve your voice, pitch, breathing, and control through guided vocal exercises.",
+      "price": 59.0,
+      "instructor": "Lana Vox",
+      "isFeatured": true,
+      "image": "https://images.pexels.com/photos/2091375/pexels-photo-2091375.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 8,
+      "title": "Composing for Film",
+      "slug": "composing-for-film",
+      "description": "Create evocative scores and soundtracks for visual media.",
+      "price": 99.99,
+      "instructor": "Hans Berg",
+      "isFeatured": true,
+      "image": "https://images.pexels.com/photos/9227547/pexels-photo-9227547.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 9,
+      "title": "Ukulele Quick Start",
+      "slug": "ukulele-quick-start",
+      "description": "A fast-track course to get you strumming and playing songs on the ukulele.",
+      "price": 35.0,
+      "instructor": "Jake Aloha",
+      "isFeatured": false,
+      "image": "https://images.pexels.com/photos/346709/pexels-photo-346709.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 10,
+      "title": "Fingerstyle Guitar Mastery",
+      "slug": "fingerstyle-guitar-mastery",
+      "description": "Refine your fingerpicking technique for acoustic guitar brilliance.",
+      "price": 74.99,
+      "instructor": "Tommy Rivers",
+      "isFeatured": true,
+      "image": "https://images.pexels.com/photos/7120373/pexels-photo-7120373.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 11,
+      "title": "Classical Music Appreciation",
+      "slug": "classical-music-appreciation",
+      "description": "Discover the history and beauty of classical compositions and composers.",
+      "price": 40.0,
+      "instructor": "Sophia Harmon",
+      "isFeatured": false,
+      "image": "https://images.pexels.com/photos/45243/saxophone-music-gold-gloss-45243.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 12,
+      "title": "Beatmaking with MPC",
+      "slug": "beatmaking-with-mpc",
+      "description": "Master rhythm sequencing and beat design using MPC hardware.",
+      "price": 79.0,
+      "instructor": "Dre Loopz",
+      "isFeatured": true,
+      "image": "https://images.pexels.com/photos/8132541/pexels-photo-8132541.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 13,
+      "title": "Intro to Songwriting",
+      "slug": "intro-to-songwriting",
+      "description": "Write compelling lyrics and melodies in this beginner songwriting course.",
+      "price": 55.99,
+      "instructor": "Melody Ray",
+      "isFeatured": false,
+      "image": "https://images.pexels.com/photos/4708913/pexels-photo-4708913.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 14,
+      "title": "DJ Mixing Fundamentals",
+      "slug": "dj-mixing-fundamentals",
+      "description": "Learn how to mix tracks, beatmatch, and perform live DJ sets.",
+      "price": 65.0,
+      "instructor": "DJ Echo",
+      "isFeatured": true,
+      "image": "https://images.pexels.com/photos/860707/pexels-photo-860707.jpeg"
+    },
+    {
+      "id": 15,
+      "title": "Violin for Beginners",
+      "slug": "violin-for-beginners",
+      "description": "Learn how to hold, tune, and play simple songs on the violin.",
+      "price": 42.5,
+      "instructor": "Isabelle String",
+      "isFeatured": false,
+      "image": "https://images.pexels.com/photos/392027/pexels-photo-392027.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    }
+  ]
+}
