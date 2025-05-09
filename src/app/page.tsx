@@ -10,15 +10,9 @@ import WhyChooseUs from "@/components/WhyChooseUs";
 export default function Home() {
   return (
     <main className="min-h-screen bg-black/[0.95] antialiased bg-grid-white/[0.02]">
-      <Spotlight
-        className="-top-40 left-0 md:-top-20 md:left-60 h-[100%]"
-        fill="white"
-      />
+      <Spotlight className="-top-40 left-0" fill="white" />
 
-      <Spotlight
-        className="-top-40 right-0 md:-top-20 md:right-60 scale-x-[-1] h-[100%]"
-        fill="white"
-      />
+      <Spotlight className="-top-40 right-0" fill="white" />
 
       <Herosection />
       <FeaturedCourses />
