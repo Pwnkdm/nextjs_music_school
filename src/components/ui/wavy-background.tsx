@@ -33,9 +33,10 @@ export const WavyBackground = ({
   waveOpacity?: number;
 } & HTMLAttributes<HTMLDivElement>) => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
-  const animationId = useRef<number>();
+  const animationId = useRef<number | null>(null);
   const noise = createNoise3D();
   const [isSafari, setIsSafari] = useState(false);
+  const nt = useRef(0);
 
   const getSpeed = () => {
     switch (speed) {
@@ -55,8 +56,6 @@ export const WavyBackground = ({
     "#e879f9",
     "#22d3ee",
   ];
-
-  const nt = useRef(0);
 
   const drawWave = useCallback(
     (ctx: CanvasRenderingContext2D, w: number, h: number, n: number) => {
@@ -96,7 +95,6 @@ export const WavyBackground = ({
 
     let w = (ctx.canvas.width = window.innerWidth);
     let h = (ctx.canvas.height = window.innerHeight);
-
     ctx.filter = `blur(${blur}px)`;
 
     const handleResize = () => {
@@ -110,7 +108,7 @@ export const WavyBackground = ({
 
     return () => {
       window.removeEventListener("resize", handleResize);
-      if (animationId.current) {
+      if (animationId.current !== null) {
         cancelAnimationFrame(animationId.current);
       }
     };
@@ -143,7 +141,7 @@ export const WavyBackground = ({
         ref={canvasRef}
         id="canvas"
         style={isSafari ? { filter: `blur(${blur}px)` } : {}}
-      ></canvas>
+      />
       <div className={cn("relative z-10", className)} {...props}>
         {children}
       </div>
