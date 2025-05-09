@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { StickyScroll } from "./ui/sticky-scroll-reveal";
 
 const content = [
@@ -9,7 +8,7 @@ const content = [
     description:
       "Engage in real-time lessons with experienced instructors. Whether you're learning piano, guitar, or voice, our interactive sessions allow you to receive personalized feedback and improve faster than ever before.",
     content: (
-      <div className="flex h-full w-full items-center justify-center bg-[linear-gradient(to_bottom_right,var(--indigo-500),var(--purple-500))] text-white">
+      <div className="flex h-full w-full items-center justify-center text-white ">
         Interactive Music Lessons
       </div>
     ),
@@ -51,6 +50,7 @@ const content = [
     ),
   },
 ];
+
 const WhyChooseUs = () => {
   return (
     <div>

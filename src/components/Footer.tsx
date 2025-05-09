@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
@@ -19,25 +20,25 @@ const Footer = () => {
           <h3 className="text-white text-lg font-semibold mb-4">Quick Links</h3>
           <ul className="space-y-2">
             <li>
-              <a href="/" className="hover:text-white">
+              <Link href="/" className="hover:text-white">
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/about" className="hover:text-white">
+              <Link href="/about" className="hover:text-white">
                 About
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a href="/courses" className="hover:text-white">
+              <Link href="/courses" className="hover:text-white">
                 Courses
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/contact" className="hover:text-white">
+              <Link href="/contact" className="hover:text-white">
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -47,44 +48,44 @@ const Footer = () => {
           <h3 className="text-white text-lg font-semibold mb-4">Follow Us</h3>
           <ul className="space-y-2">
             <li>
-              <a
+              <Link
                 href="https://www.facebook.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-white"
               >
                 Facebook
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="https://www.instagram.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-white"
               >
                 Instagram
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="https://www.youtube.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-white"
               >
                 YouTube
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="https://open.spotify.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-white"
               >
                 Spotify
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -100,15 +101,15 @@ const Footer = () => {
           <p className="mt-2">Phone: (123) 456-7890</p>
           <p>Email: info@harmonymusicschool.com</p>
           <div className="flex space-x-4 mt-4">
-            <a href="#" className="hover:text-white">
+            <Link href="#" className="hover:text-white">
               Facebook
-            </a>
-            <a href="#" className="hover:text-white">
+            </Link>
+            <Link href="#" className="hover:text-white">
               Instagram
-            </a>
-            <a href="#" className="hover:text-white">
+            </Link>
+            <Link href="#" className="hover:text-white">
               YouTube
-            </a>
+            </Link>
           </div>
         </div>
       </div>

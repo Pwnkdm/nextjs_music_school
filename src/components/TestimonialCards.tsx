@@ -1,5 +1,4 @@
 "use client";
-import { div } from "motion/react-client";
 import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
 import { cn } from "@/lib/utils";
 

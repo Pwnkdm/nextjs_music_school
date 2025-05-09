@@ -3,17 +3,17 @@ import React from "react";
 
 const ContactPage = () => {
   return (
-    <div className="bg-gradient-to-br from-gray-900 via-black to-gray-800 text-white mt-20 relative overflow-hidden">
+    <div className="bg-gradient-to-br from-gray-900 via-black to-gray-800 text-white pt-20 relative overflow-hidden">
       <Meteors number={50} className="absolute inset-0 z-0" />
 
       {/* Content Wrapper to keep content above meteors */}
-      <div className="relative z-10">
+      <div className="relative z-10 ">
         {/* Header */}
         <div className="py-16 text-center">
           <h1 className="text-4xl font-bold mb-2">Contact Us</h1>
           <p className="text-lg">
-            We’d love to hear from you — whether it's about lessons, programs,
-            or performances!
+            We&rsquo;d love to hear from you — whether it&apos;s about lessons,
+            programs, or performances!
           </p>
         </div>
 
@@ -102,7 +102,6 @@ const ContactPage = () => {
           <iframe
             className="w-full h-full"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.935149106106!2d-73.98165298459254!3d40.768731679327955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQ2JzA3LjQiTiA3M8KwNTgnNDcuMiJX!5e0!3m2!1sen!2sus!4v1617654249671!5m2!1sen!2sus"
-            allowFullScreen=""
             loading="lazy"
             title="School Location"
           ></iframe>

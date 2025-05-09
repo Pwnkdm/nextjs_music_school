@@ -2,7 +2,6 @@
 import Link from "next/link";
 import courseData from "../data/music_courses.json";
 import { BackgroundGradient } from "./ui/background-gradient";
-import { p } from "motion/react-client";
 
 interface Course {
   id: number;

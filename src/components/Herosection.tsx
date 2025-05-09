@@ -11,9 +11,10 @@ const Herosection = () => {
         </h1>
         <p className="mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto">
           Dive into our comprehensive music courses and transform your musical
-          journey today. Whether you're a beginar or looking tp refine your
-          skills, Join us to unlock your true potensial.{" "}
+          journey today. Whether you&rsquo;re a beginner or looking to refine
+          your skills, join us to unlock your true potential.
         </p>
+
         <div className="mt-4">
           <Link href={"/courses"}>
             <Button
